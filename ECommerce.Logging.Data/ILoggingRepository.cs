@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.Storage;
 
-namespace ECommerce.Logging.Api.Data
+namespace ECommerce.Logging.Data
 {
     public interface ILoggingRepository
     {

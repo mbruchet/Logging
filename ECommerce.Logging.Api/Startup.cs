@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 using Ecommerce.Data.RepositoryStore;
-using ECommerce.Logging.Api.Data;
+using ECommerce.Logging.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;

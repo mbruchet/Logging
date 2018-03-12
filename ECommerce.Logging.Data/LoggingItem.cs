@@ -1,9 +1,8 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using System.Diagnostics.Tracing;
 using Microsoft.Extensions.Logging;
 
-namespace ECommerce.Logging.Api.Data
+namespace ECommerce.Logging.Data
 {
     public class LoggingItem
     {

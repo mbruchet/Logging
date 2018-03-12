@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
 using System.Threading.Tasks;
-using ECommerce.Logging.Api.Data;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using System.Text;
+using ECommerce.Logging.Data;
 using Newtonsoft.Json;
 
 namespace ECommerce.Logging.Api.Controllers

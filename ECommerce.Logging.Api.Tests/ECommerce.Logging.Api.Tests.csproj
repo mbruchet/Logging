@@ -27,6 +27,8 @@
   <ItemGroup>
     <ProjectReference Include="..\ECommerce.Logging.Api\ECommerce.Logging.Api.csproj" />
     <ProjectReference Include="..\ECommerce.Logging.Client\ECommerce.Logging.Client.csproj" />
+    <ProjectReference Include="..\ECommerce.Logging.Data\ECommerce.Logging.Data.csproj" />
+    <ProjectReference Include="..\ECommerce.Logging.Log4NetAppender\ECommerce.Logging.Log4NetAppender.csproj" />
   </ItemGroup>
 
   <ItemGroup>

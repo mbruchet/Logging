@@ -10,14 +10,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="ECommerce.Data.FileStore" Version="1.0.3" />
-    <PackageReference Include="Ecommerce.Data.RepositoryStore" Version="1.0.3" />
-    <PackageReference Include="log4net" Version="2.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
   </ItemGroup>
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerce.Logging.Data\ECommerce.Logging.Data.csproj" />
+    <ProjectReference Include="..\ECommerce.Logging.Log4NetAppender\ECommerce.Logging.Log4NetAppender.csproj" />
   </ItemGroup>
 
   <ItemGroup>

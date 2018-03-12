@@ -2,7 +2,7 @@
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
-using ECommerce.Logging.Api.Data;
+using ECommerce.Logging.Data;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 

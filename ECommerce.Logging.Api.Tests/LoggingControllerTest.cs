@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Diagnostics.Tracing;
 using System.IO;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
-using ECommerce.Logging.Api.Data;
+using ECommerce.Logging.Data;
 using FluentAssertions;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.Logging;
