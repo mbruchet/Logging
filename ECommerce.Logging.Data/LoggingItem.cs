@@ -16,6 +16,6 @@ namespace ECommerce.Logging.Data
         public LogLevel EventLevel { get; set; }
         public string Message { get; set; }
         public string EventId { get; set; }
-        public string Logger { get; set; }
+        public string Category { get; set; }
     }
 }

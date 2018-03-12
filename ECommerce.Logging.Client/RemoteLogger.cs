@@ -77,7 +77,7 @@ namespace ECommerce.Logging.Client
                 Application = Application,
                 Service = Service,
                 Environment = Environment,
-                Logger = _name,
+                Category = _name,
                 EventLevel = logLevel,
                 EventDate = DateTime.Now,
                 Server = System.Environment.MachineName,
