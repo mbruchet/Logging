@@ -7,7 +7,10 @@
   <ItemGroup>
     <PackageReference Include="ECommerce.Data.FileStore" Version="1.0.3" />
     <PackageReference Include="Ecommerce.Data.RepositoryStore" Version="1.0.3" />
+    <PackageReference Include="ECommerce.Events.Clients.PublisherClient" Version="1.0.1" />
+    <PackageReference Include="ECommerce.Remote" Version="1.0.2" />
     <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="NReco.LambdaParser" Version="1.0.7" />
   </ItemGroup>
 
   <ItemGroup>

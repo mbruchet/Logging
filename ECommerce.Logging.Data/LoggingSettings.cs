@@ -8,5 +8,6 @@ namespace ECommerce.Logging.Data
         public LogLevel PublishEventLevel { get; set; }
         public RepositorySetting Repository { get; set; }
         public string Appender { get; set; }
+        public RepositorySetting NotificationRules { get; set; }
     }
 }

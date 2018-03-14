@@ -34,12 +34,12 @@ namespace ECommerce.Logging.Api
 
             var options = Options.Create(settings);
 
-            services.AddSingleton<ILoggingRepository>(provider => new LoggingRepository(settings.Repository.ProviderAssembly,
+            services.AddSingleton<ILoggingRepository>(provider => new LoggingItemRepository(settings.Repository.ProviderAssembly,
                 new ConnectionOptions
                 {
                     Provider = settings.Repository.ProviderType,
                     ConnectionString = settings.Repository.ConnectionString,
-                }, _loggerFactory, _diagnosticSource, options));
+                }, _loggerFactory, _diagnosticSource, options, Configuration));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

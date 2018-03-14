@@ -1,0 +1,14 @@
+﻿{
+  "dde2805d-7438-432f-9f1e-2b8b7454631f": {
+    "Id": "dde2805d-7438-432f-9f1e-2b8b7454631f",
+    "rule": "LoggingItem.EventLevel > Warning",
+    "notification": "ErrorOccured",
+    "isEnabled": true
+  },
+  "0a037fc9-9685-4679-aa89-8e7cd29deb03": {
+    "Id": "0a037fc9-9685-4679-aa89-8e7cd29deb03",
+    "rule": "LoggingItem.EventLevel > Warning && LoggingItem.Category.Contains(\"MyApplication\")",
+    "notification": "MyApplicationLogging",
+    "isEnabled": true
+  }
+}

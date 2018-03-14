@@ -33,7 +33,7 @@ namespace ECommerce.Logging.Api.Tests
             var logger = loggerFactory.CreateLogger("Test");
 
             logger.Should().NotBeNull();
-            logger.LogInformation("This is a test");
+            logger.LogError("This is a test");
 
             var logFile = "c:\\temp\\app.log";
 
